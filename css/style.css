@@ -1,0 +1,155 @@
+@import url("https://fonts.googleeapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+body {
+  background-color: navy;
+}
+/* division of the content  */
+.contentBox {
+  width: 320px;
+  height: 100%;
+  text-align: center;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 25px;
+  padding-bottom: 10px;
+}
+form {
+  margin: 20px;
+}
+.contentBox h2 {
+  color: #365463;
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 20px;
+  margin-top: 25px;
+  display: inline-block;
+  letter-spacing: 1px;
+}
+.contentBox .inputBox {
+  margin-bottom: 20px;
+}
+.contentBox .inputBox span {
+  font-size: 16px;
+  margin-bottom: 5px;
+  display: block;
+  color: #082230;
+  font-weight: 700;
+  text-align: start;
+  margin-left: 20px;
+}
+.contentBox .inputBox .icon {
+  color: #365463;
+  outline: none;
+  text-align: right;
+  position: absolute;
+  margin-left: 110px;
+  margin-top: 40px;
+}
+.contentBox .inputBox input {
+  width: 100%;
+  padding: 10px 20px;
+  outline: none;
+  font-weight: 400;
+  border: 2px solid #365463;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #365463;
+  background: transparent;
+  border-radius: 10px;
+}
+.contentBox .inputBox input[type="submit"] {
+  background: #4b6d7e;
+  color: #fff;
+  border: none;
+  font-weight: 600;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.contentBox .inputBox input[type="submit"]:hover {
+  background: #ff4584;
+}
+.contentBox .remember {
+  margin-bottom: 10px;
+  color: #365463;
+  font-weight: 700;
+  font-size: 15px;
+  display: block;
+  text-align: start;
+}
+.contentBox .inputBox p {
+  color: #365463;
+  display: flex;
+  flex-direction: column;
+}
+.contentBox .inputBox p a {
+  color: #4b6d7e;
+}
+.contentBox h4 {
+  color: #1c3a49;
+  text-align: center;
+  margin: 30px 0 10px;
+  font-weight: 700;
+}
+.contentBox .sci {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.contentBox .sci li {
+  list-style: none;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  background: #393e92;
+  border-radius: 50%;
+  margin: 0 7px;
+  cursor: pointer;
+}
+.contentBox .sci li:hover {
+  background: #ff4584;
+  border-radius: 50%;
+}
+.contentBox .sci li img {
+  width: 30px;
+  height: 30px;
+  transform: scale(0.8);
+  filter: invert(1);
+  margin-top: 3px;
+}
+@media (max-width: 600px) {
+  .contentBox {
+    width: 320px;
+    padding: 40px;
+    background: whitesmoke;
+    padding: 30px;
+    overflow: hidden;
+    margin: 50px;
+    /* background: transparent; */
+  }
+  .contentBox h4 {
+    color: #607d8b;
+    text-align: center;
+    margin: 30px 0 10px;
+    font-weight: 700;
+  }
+  .contentBox .inputBox .icon {
+    color: #365463;
+    outline: none;
+    text-align: right;
+    position: absolute;
+    margin-left: 85px;
+    margin-top: 40px;
+  }
+}
